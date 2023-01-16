@@ -1,9 +1,6 @@
 pipeline {
     agent any 
-    tools {
-        Apache Maven 3.6.3
-    
-    }
+
     stages {
         stage('Compile and Clean') { 
             steps {
